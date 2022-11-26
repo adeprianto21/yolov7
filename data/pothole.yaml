@@ -1,0 +1,12 @@
+# Road Damage Detection (128 sample) dataset https://crddc2022.sekilab.global/
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./data/pothole_dataset/train/
+val: ./data/pothole_dataset/val/
+test: ./data/pothole_dataset/test/
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'Lubang' ]
